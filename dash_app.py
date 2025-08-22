@@ -44,6 +44,8 @@ disagg_options = {
 bucket_order = ["Micro (1–9)", "Small (10–49)", "Medium (50–249)", "Large (250+)"]
 
 app = dash.Dash(__name__)
+server = app.server
+
 app.layout = html.Div([
     html.H2("Remote/Hybrid Work Survey Dashboard"),
     html.Div([
