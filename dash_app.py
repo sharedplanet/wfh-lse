@@ -43,43 +43,92 @@ disagg_options = {
 
 bucket_order = ["Micro (1–9)", "Small (10–49)", "Medium (50–249)", "Large (250+)"]
 
+dropdown_style = {
+    "backgroundColor": "#ffffff",
+    "border": "1px solid #d1d3e0",
+    "borderRadius": "6px",
+    "padding": "10px 12px",
+    "fontSize": "14px",
+    "color": "#1f2c56",
+    "boxShadow": "0 2px 6px rgba(0,0,0,0.05)",
+    "transition": "all 0.2s ease",
+}
+
+label_style = {
+    "color": "#1f2c56",
+    "fontWeight": "600",
+    "marginBottom": "6px",
+    "display": "block",
+    "fontSize": "15px",
+}
+
+header_style = {
+    "color": "#1f2c56",
+    "textAlign": "center",
+    "fontWeight": "700",
+    "marginBottom": "30px",
+    "fontFamily": "Inter, Helvetica, Arial, sans-serif",
+}
+
+graph_container_style = {
+    "marginTop": "30px",
+    "padding": "20px",
+    "borderRadius": "10px",
+    "backgroundColor": "#ffffff",
+    "boxShadow": "0 4px 12px rgba(0,0,0,0.05)",
+}
+
+body_style = {
+    "fontFamily": "Inter, Helvetica, Arial, sans-serif",
+    "backgroundColor": "#f8f9fc",
+    "padding": "30px",
+}
+
 app = dash.Dash(__name__)
 server = app.server
-
 app.layout = html.Div([
-    html.H2("Remote/Hybrid Work Survey Dashboard"),
+    html.H2("Remote/Hybrid Work Survey Dashboard", style=header_style),
+
     html.Div([
-        html.Label("Filter by Q8 Response:"),
+        html.Label("Filter by Q8 Response:", style=label_style),
         dcc.Dropdown(
             id="q8_filter",
             options=[
-                {"label": "No, never", "value": "No, never"},
                 {"label": "Yes (currently or at some point in time)", "value": "Yes (currently or at some point in time)"},
             ],
-            value="No, never",
+            value="Yes (currently or at some point in time)",
             clearable=False,
+            style=dropdown_style,
         )
-    ], style={"width": "300px"}),
+    ], style={"width": "320px", "margin": "0 auto"}),
+
     html.Div([
-        html.Label("Select question to analyze:"),
+        html.Label("Select question to analyze:", style=label_style),
         dcc.Dropdown(
             id="question_select",
             options=[{"label": k, "value": v} for k, v in questions.items()],
             value="11_Response",
             clearable=False,
+            style=dropdown_style,
         )
-    ], style={"width": "600px", "marginTop": "20px"}),
+    ], style={"width": "650px", "margin": "20px auto"}),
+
     html.Div([
-        html.Label("Disaggregate by:"),
+        html.Label("Disaggregate by:", style=label_style),
         dcc.Dropdown(
             id="disagg_select",
             options=[{"label": k, "value": v} for k, v in disagg_options.items()],
             value="7_Response_Bucket",
             clearable=False,
+            style=dropdown_style,
         )
-    ], style={"width": "400px", "marginTop": "20px"}),
-    dcc.Graph(id="bar_chart", style={"marginTop": "30px"}),
-])
+    ], style={"width": "420px", "margin": "20px auto"}),
+
+    html.Div([
+        dcc.Graph(id="bar_chart")
+    ], style=graph_container_style),
+
+], style=body_style)
 
 @app.callback(
     Output("bar_chart", "figure"),
@@ -91,7 +140,9 @@ def update_chart(q8_value, question_col, disagg_col):
     key = f"{q8_value}|{question_col}|{disagg_col}"
     if key not in aggregates:
         return px.bar(title="No data available for this selection.")
+
     data = pd.DataFrame(aggregates[key])
+
     if question_col.endswith("_"):
         fig = px.bar(
             data,
@@ -118,7 +169,16 @@ def update_chart(q8_value, question_col, disagg_col):
             labels={"Percent": "Percentage of responses", disagg_col: disagg_col, question_col: question_col},
             category_orders={disagg_col: bucket_order} if disagg_col == "7_Response_Bucket" else None,
         )
+
     fig.update_layout(
+        title={
+            'text': f"{question_col} by {disagg_col} (Q8={q8_value})",
+            'y':0.95,
+            'x':0.5,
+            'xanchor': 'center',
+            'yanchor': 'top',
+            'font': {'size': 20, 'family': 'Inter, Helvetica, Arial, sans-serif', 'color': '#1f2c56'}
+        },
         legend=dict(
             orientation="h",
             yanchor="bottom",
@@ -130,10 +190,12 @@ def update_chart(q8_value, question_col, disagg_col):
             font=dict(size=10),
             traceorder="normal",
         ),
-        margin=dict(t=100, b=40, l=40, r=40),
+        margin=dict(t=140, b=40, l=40, r=40),
         autosize=True,
+        plot_bgcolor="#f8f9fc",
+        paper_bgcolor="#f8f9fc",
     )
     return fig
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8051)
