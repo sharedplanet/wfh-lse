@@ -1,3 +1,5 @@
-dash==2.6.0
-Pandas
+dash
+pandas
 gunicorn
+plotly
+json
