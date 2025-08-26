@@ -10,7 +10,9 @@ import plotly.express as px
 with open("aggregates.json") as f:
     aggregates = json.load(f)
 
+# ---------------------------
 # Questions mapping
+# ---------------------------
 questions = {
     "Q11 – Policy change since pandemic": "11_Response",
     "Q12 – Likelihood of return-to-office": "12_Response",
@@ -40,6 +42,9 @@ questions = {
     "Q25 – Reasons for non-adoption - multi-select": "25_",
 }
 
+# ---------------------------
+# Disaggregation options
+# ---------------------------
 disagg_options = {
     "Years since business incorporated": "2_Response",
     "Sector": "3_Response",
@@ -97,14 +102,13 @@ body_style = {
 }
 
 # ---------------------------
-# Dash App
+# Build Dash app
 # ---------------------------
 app = dash.Dash(__name__)
-server = app.server
 app.layout = html.Div([
     html.H2("Remote/Hybrid Work Survey Dashboard", style=header_style),
 
-    # Q8 Radio
+    # Q8 Radio filter
     html.Div([
         html.Label("Filter by Q8 Response:", style=label_style),
         dcc.RadioItems(
@@ -147,7 +151,6 @@ app.layout = html.Div([
     dcc.Graph(id="bar_chart", style={"marginTop": "30px"}),
 
 ], style=body_style)
-
 
 # ---------------------------
 # Callbacks
@@ -195,6 +198,7 @@ def update_multi_choice_selector(question_col):
     Input("multi_choice_select", "value"),
 )
 def update_chart(q8_value, question_col, disagg_col, multi_choice):
+    # Determine aggregate key
     if question_col.endswith("_") and multi_choice:
         key = f"{q8_value}|{multi_choice}|{disagg_col}"
     else:
@@ -216,6 +220,8 @@ def update_chart(q8_value, question_col, disagg_col, multi_choice):
             labels={"Percent": "Percentage of respondents", disagg_col: disagg_col},
             category_orders={disagg_col: bucket_order} if disagg_col == "7_Response_Bucket" else None
         )
+        # Fix x-axis to 0–100% for multi-select
+        fig.update_xaxes(range=[0, 100], title_text="Percentage of respondents")
     else:
         fig = px.bar(
             data,
@@ -238,8 +244,8 @@ def update_chart(q8_value, question_col, disagg_col, multi_choice):
         paper_bgcolor="#f8f9fc",
     )
     fig.update_traces(textposition="inside", insidetextanchor="middle")
-    return fig
 
+    return fig
 
 # ---------------------------
 # Run app
