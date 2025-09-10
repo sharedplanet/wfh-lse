@@ -15,7 +15,7 @@ import plotly.express as px
 # ---------------------------
 # Load pre-aggregated data
 # ---------------------------
-with open("aggregates.json") as f:
+with open("aggregates_new.json") as f:
     aggregates = json.load(f)
 
 # ---------------------------
