@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Sep 10 10:42:23 2025
+
+@author: manickamvalliappan
+"""
+
 import json
 import pandas as pd
 import dash
@@ -49,9 +57,17 @@ disagg_options = {
     "Years since business incorporated": "2_Response",
     "Sector": "3_Response",
     "Workforce size (Q7 buckets)": "7_Response_Bucket",
+    "WFH Office Type": "KI_Category",
+    "Managerial Strength": "Managerial_Strength",
+    "Age Class": "Age_Class",
+    "Hybrid Office Geography": "Hybrid_Office_Geography",
 }
 
+# Predefined category orders
 bucket_order = ["Micro (1–9)", "Small (10–49)", "Medium (50–249)", "Large (250+)"]
+ki_category_order = ["Office-based", "Manufacturing", "Transportation & Storage", "Other"]
+managerial_strength_order = ["Low", "Medium", "High", "Other", "Unknown"]
+age_class_order = ["Young (<=10 years)", "Old (>10 years)", "Unknown"]
 
 # ---------------------------
 # Styles
@@ -84,14 +100,6 @@ header_style = {
     "fontWeight": "700",
     "marginBottom": "30px",
     "fontFamily": "Inter, Helvetica, Arial, sans-serif",
-}
-
-graph_container_style = {
-    "marginTop": "30px",
-    "padding": "20px",
-    "borderRadius": "10px",
-    "backgroundColor": "#ffffff",
-    "boxShadow": "0 4px 12px rgba(0,0,0,0.05)",
 }
 
 body_style = {
@@ -210,6 +218,17 @@ def update_chart(q8_value, question_col, disagg_col, multi_choice):
 
     data = pd.DataFrame(aggregates[key])
 
+    # Determine category ordering if relevant
+    category_orders = None
+    if disagg_col == "7_Response_Bucket":
+        category_orders = {disagg_col: bucket_order}
+    elif disagg_col == "KI_Category":
+        category_orders = {disagg_col: ki_category_order}
+    elif disagg_col == "Managerial_Strength":
+        category_orders = {disagg_col: managerial_strength_order}
+    elif disagg_col == "Age_Class":
+        category_orders = {disagg_col: age_class_order}
+
     if question_col.endswith("_") and multi_choice:
         fig = px.bar(
             data,
@@ -219,9 +238,8 @@ def update_chart(q8_value, question_col, disagg_col, multi_choice):
             text=data.apply(lambda r: f"{r['Percent']:.1f}% ({int(r['Count'])})", axis=1),
             title=f"{multi_choice.replace(question_col,'')} by {disagg_col}",
             labels={"Percent": "Percentage of respondents", disagg_col: disagg_col},
-            category_orders={disagg_col: bucket_order} if disagg_col == "7_Response_Bucket" else None
+            category_orders=category_orders
         )
-        # Fix x-axis to 0–100% for multi-select
         fig.update_xaxes(range=[0, 100], title_text="Percentage of respondents")
     else:
         fig = px.bar(
@@ -234,7 +252,7 @@ def update_chart(q8_value, question_col, disagg_col, multi_choice):
             text=data.apply(lambda r: f"{r['Percent']:.1f}% ({int(r['Count'])})", axis=1),
             title=f"{question_col} by {disagg_col} (Q8={q8_value})",
             labels={"Percent": "Percentage of responses", disagg_col: disagg_col, question_col: question_col},
-            category_orders={disagg_col: bucket_order} if disagg_col == "7_Response_Bucket" else None
+            category_orders=category_orders
         )
 
     fig.update_layout(
@@ -253,4 +271,3 @@ def update_chart(q8_value, question_col, disagg_col, multi_choice):
 # ---------------------------
 if __name__ == "__main__":
     app.run(debug=True, port=8051)
-
