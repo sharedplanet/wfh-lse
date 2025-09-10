@@ -45,7 +45,7 @@ questions = {
     "Q19 – Other (please specify)": "19_Other (please specify)",
     "Q20 – Barriers to scaling - multi-select": "20_",
     "Q21 – Technologies of enablement - multi-select": "21_",
-    "Q23 – Barriers to scaling - multi-select": "23_",
+    "Q23 – Managerial Practices - multi-select": "23_",
     "Q24 – Adoption of AI impact on remote work - multi-select": "24_",
     "Q25 – Reasons for non-adoption - multi-select": "25_",
 }
