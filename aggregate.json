@@ -1,0 +1,1514 @@
+{
+  "Yes (currently or at some point in time)": {
+    "25_": {
+      "7_Response_Bucket": {
+        "25_Nature of the work requires on-site presence": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Organisational culture or leadership preferences": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 1,
+            "Total": 266,
+            "Percent": 0.4
+          }
+        },
+        "25_Lack of digital tools": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Lack of digital infrastructure (e.g. high-speed broadband internet connection)": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Costs of setting up IT infrastructure": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Management lacks experience with remote/hybrid work practices": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Lack of required workforce skills": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Concerns about employee productivity": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 1,
+            "Total": 266,
+            "Percent": 0.4
+          }
+        },
+        "25_Concerns about disruption to innovation process": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Challenges maintaining team cohesion or culture": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Difficulty monitoring or supervising remote/hybrid workers": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Reorganisation costs, such as managerial time, workforce training or reallocating tasks": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Data security or confidentiality concerns": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Financing constraints": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Legal, tax, or compliance barriers": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_No demand or interest from employees": {
+          "Large (250+)": {
+            "Selected": 1,
+            "Total": 102,
+            "Percent": 1.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        },
+        "25_Other (please specify)": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 102,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 164,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 266,
+            "Percent": 0.0
+          }
+        }
+      },
+      "KI_Category": {
+        "25_Nature of the work requires on-site presence": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Organisational culture or leadership preferences": {
+          "Manufacturing": {
+            "Selected": 1,
+            "Total": 175,
+            "Percent": 0.6
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Lack of digital tools": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Lack of digital infrastructure (e.g. high-speed broadband internet connection)": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Costs of setting up IT infrastructure": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Management lacks experience with remote/hybrid work practices": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Lack of required workforce skills": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Concerns about employee productivity": {
+          "Manufacturing": {
+            "Selected": 1,
+            "Total": 175,
+            "Percent": 0.6
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Concerns about disruption to innovation process": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Challenges maintaining team cohesion or culture": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Difficulty monitoring or supervising remote/hybrid workers": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Reorganisation costs, such as managerial time, workforce training or reallocating tasks": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Data security or confidentiality concerns": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Financing constraints": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Legal, tax, or compliance barriers": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_No demand or interest from employees": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 1,
+            "Total": 146,
+            "Percent": 0.7
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        },
+        "25_Other (please specify)": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 175,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 359,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 146,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 27,
+            "Percent": 0.0
+          }
+        }
+      }
+    }
+  },
+  "No, never": {
+    "25_": {
+      "7_Response_Bucket": {
+        "25_Nature of the work requires on-site presence": {
+          "Large (250+)": {
+            "Selected": 2,
+            "Total": 2,
+            "Percent": 100.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 15,
+            "Total": 18,
+            "Percent": 83.3
+          },
+          "Micro (1\u20139)": {
+            "Selected": 24,
+            "Total": 35,
+            "Percent": 68.6
+          },
+          "Small (10\u201349)": {
+            "Selected": 33,
+            "Total": 39,
+            "Percent": 84.6
+          }
+        },
+        "25_Organisational culture or leadership preferences": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 3,
+            "Total": 18,
+            "Percent": 16.7
+          },
+          "Micro (1\u20139)": {
+            "Selected": 11,
+            "Total": 35,
+            "Percent": 31.4
+          },
+          "Small (10\u201349)": {
+            "Selected": 8,
+            "Total": 39,
+            "Percent": 20.5
+          }
+        },
+        "25_Lack of digital tools": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 18,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 35,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 1,
+            "Total": 39,
+            "Percent": 2.6
+          }
+        },
+        "25_Lack of digital infrastructure (e.g. high-speed broadband internet connection)": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 1,
+            "Total": 18,
+            "Percent": 5.6
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 35,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 1,
+            "Total": 39,
+            "Percent": 2.6
+          }
+        },
+        "25_Costs of setting up IT infrastructure": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 1,
+            "Total": 18,
+            "Percent": 5.6
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 35,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 1,
+            "Total": 39,
+            "Percent": 2.6
+          }
+        },
+        "25_Management lacks experience with remote/hybrid work practices": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 18,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 3,
+            "Total": 35,
+            "Percent": 8.6
+          },
+          "Small (10\u201349)": {
+            "Selected": 2,
+            "Total": 39,
+            "Percent": 5.1
+          }
+        },
+        "25_Lack of required workforce skills": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 18,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 35,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 2,
+            "Total": 39,
+            "Percent": 5.1
+          }
+        },
+        "25_Concerns about employee productivity": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 7,
+            "Total": 18,
+            "Percent": 38.9
+          },
+          "Micro (1\u20139)": {
+            "Selected": 6,
+            "Total": 35,
+            "Percent": 17.1
+          },
+          "Small (10\u201349)": {
+            "Selected": 8,
+            "Total": 39,
+            "Percent": 20.5
+          }
+        },
+        "25_Concerns about disruption to innovation process": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 2,
+            "Total": 18,
+            "Percent": 11.1
+          },
+          "Micro (1\u20139)": {
+            "Selected": 2,
+            "Total": 35,
+            "Percent": 5.7
+          },
+          "Small (10\u201349)": {
+            "Selected": 1,
+            "Total": 39,
+            "Percent": 2.6
+          }
+        },
+        "25_Challenges maintaining team cohesion or culture": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 3,
+            "Total": 18,
+            "Percent": 16.7
+          },
+          "Micro (1\u20139)": {
+            "Selected": 3,
+            "Total": 35,
+            "Percent": 8.6
+          },
+          "Small (10\u201349)": {
+            "Selected": 8,
+            "Total": 39,
+            "Percent": 20.5
+          }
+        },
+        "25_Difficulty monitoring or supervising remote/hybrid workers": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 2,
+            "Total": 18,
+            "Percent": 11.1
+          },
+          "Micro (1\u20139)": {
+            "Selected": 3,
+            "Total": 35,
+            "Percent": 8.6
+          },
+          "Small (10\u201349)": {
+            "Selected": 6,
+            "Total": 39,
+            "Percent": 15.4
+          }
+        },
+        "25_Reorganisation costs, such as managerial time, workforce training or reallocating tasks": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 18,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 35,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 39,
+            "Percent": 0.0
+          }
+        },
+        "25_Data security or confidentiality concerns": {
+          "Large (250+)": {
+            "Selected": 1,
+            "Total": 2,
+            "Percent": 50.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 1,
+            "Total": 18,
+            "Percent": 5.6
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 35,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 1,
+            "Total": 39,
+            "Percent": 2.6
+          }
+        },
+        "25_Financing constraints": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 18,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 1,
+            "Total": 35,
+            "Percent": 2.9
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 39,
+            "Percent": 0.0
+          }
+        },
+        "25_Legal, tax, or compliance barriers": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 18,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 0,
+            "Total": 35,
+            "Percent": 0.0
+          },
+          "Small (10\u201349)": {
+            "Selected": 0,
+            "Total": 39,
+            "Percent": 0.0
+          }
+        },
+        "25_No demand or interest from employees": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 18,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 5,
+            "Total": 35,
+            "Percent": 14.3
+          },
+          "Small (10\u201349)": {
+            "Selected": 5,
+            "Total": 39,
+            "Percent": 12.8
+          }
+        },
+        "25_Other (please specify)": {
+          "Large (250+)": {
+            "Selected": 0,
+            "Total": 2,
+            "Percent": 0.0
+          },
+          "Medium (50\u2013249)": {
+            "Selected": 0,
+            "Total": 18,
+            "Percent": 0.0
+          },
+          "Micro (1\u20139)": {
+            "Selected": 4,
+            "Total": 35,
+            "Percent": 11.4
+          },
+          "Small (10\u201349)": {
+            "Selected": 2,
+            "Total": 39,
+            "Percent": 5.1
+          }
+        }
+      },
+      "KI_Category": {
+        "25_Nature of the work requires on-site presence": {
+          "Manufacturing": {
+            "Selected": 38,
+            "Total": 41,
+            "Percent": 92.7
+          },
+          "Office-based": {
+            "Selected": 12,
+            "Total": 22,
+            "Percent": 54.5
+          },
+          "Other": {
+            "Selected": 18,
+            "Total": 23,
+            "Percent": 78.3
+          },
+          "Transportation & Storage": {
+            "Selected": 6,
+            "Total": 8,
+            "Percent": 75.0
+          }
+        },
+        "25_Organisational culture or leadership preferences": {
+          "Manufacturing": {
+            "Selected": 10,
+            "Total": 41,
+            "Percent": 24.4
+          },
+          "Office-based": {
+            "Selected": 8,
+            "Total": 22,
+            "Percent": 36.4
+          },
+          "Other": {
+            "Selected": 3,
+            "Total": 23,
+            "Percent": 13.0
+          },
+          "Transportation & Storage": {
+            "Selected": 1,
+            "Total": 8,
+            "Percent": 12.5
+          }
+        },
+        "25_Lack of digital tools": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 41,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 1,
+            "Total": 22,
+            "Percent": 4.5
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_Lack of digital infrastructure (e.g. high-speed broadband internet connection)": {
+          "Manufacturing": {
+            "Selected": 2,
+            "Total": 41,
+            "Percent": 4.9
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 22,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_Costs of setting up IT infrastructure": {
+          "Manufacturing": {
+            "Selected": 2,
+            "Total": 41,
+            "Percent": 4.9
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 22,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_Management lacks experience with remote/hybrid work practices": {
+          "Manufacturing": {
+            "Selected": 1,
+            "Total": 41,
+            "Percent": 2.4
+          },
+          "Office-based": {
+            "Selected": 4,
+            "Total": 22,
+            "Percent": 18.2
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_Lack of required workforce skills": {
+          "Manufacturing": {
+            "Selected": 1,
+            "Total": 41,
+            "Percent": 2.4
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 22,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 1,
+            "Total": 23,
+            "Percent": 4.3
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_Concerns about employee productivity": {
+          "Manufacturing": {
+            "Selected": 9,
+            "Total": 41,
+            "Percent": 22.0
+          },
+          "Office-based": {
+            "Selected": 6,
+            "Total": 22,
+            "Percent": 27.3
+          },
+          "Other": {
+            "Selected": 4,
+            "Total": 23,
+            "Percent": 17.4
+          },
+          "Transportation & Storage": {
+            "Selected": 2,
+            "Total": 8,
+            "Percent": 25.0
+          }
+        },
+        "25_Concerns about disruption to innovation process": {
+          "Manufacturing": {
+            "Selected": 2,
+            "Total": 41,
+            "Percent": 4.9
+          },
+          "Office-based": {
+            "Selected": 3,
+            "Total": 22,
+            "Percent": 13.6
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_Challenges maintaining team cohesion or culture": {
+          "Manufacturing": {
+            "Selected": 4,
+            "Total": 41,
+            "Percent": 9.8
+          },
+          "Office-based": {
+            "Selected": 4,
+            "Total": 22,
+            "Percent": 18.2
+          },
+          "Other": {
+            "Selected": 5,
+            "Total": 23,
+            "Percent": 21.7
+          },
+          "Transportation & Storage": {
+            "Selected": 1,
+            "Total": 8,
+            "Percent": 12.5
+          }
+        },
+        "25_Difficulty monitoring or supervising remote/hybrid workers": {
+          "Manufacturing": {
+            "Selected": 4,
+            "Total": 41,
+            "Percent": 9.8
+          },
+          "Office-based": {
+            "Selected": 3,
+            "Total": 22,
+            "Percent": 13.6
+          },
+          "Other": {
+            "Selected": 3,
+            "Total": 23,
+            "Percent": 13.0
+          },
+          "Transportation & Storage": {
+            "Selected": 1,
+            "Total": 8,
+            "Percent": 12.5
+          }
+        },
+        "25_Reorganisation costs, such as managerial time, workforce training or reallocating tasks": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 41,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 22,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_Data security or confidentiality concerns": {
+          "Manufacturing": {
+            "Selected": 2,
+            "Total": 41,
+            "Percent": 4.9
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 22,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 1,
+            "Total": 8,
+            "Percent": 12.5
+          }
+        },
+        "25_Financing constraints": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 41,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 1,
+            "Total": 22,
+            "Percent": 4.5
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_Legal, tax, or compliance barriers": {
+          "Manufacturing": {
+            "Selected": 0,
+            "Total": 41,
+            "Percent": 0.0
+          },
+          "Office-based": {
+            "Selected": 0,
+            "Total": 22,
+            "Percent": 0.0
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_No demand or interest from employees": {
+          "Manufacturing": {
+            "Selected": 1,
+            "Total": 41,
+            "Percent": 2.4
+          },
+          "Office-based": {
+            "Selected": 5,
+            "Total": 22,
+            "Percent": 22.7
+          },
+          "Other": {
+            "Selected": 4,
+            "Total": 23,
+            "Percent": 17.4
+          },
+          "Transportation & Storage": {
+            "Selected": 0,
+            "Total": 8,
+            "Percent": 0.0
+          }
+        },
+        "25_Other (please specify)": {
+          "Manufacturing": {
+            "Selected": 2,
+            "Total": 41,
+            "Percent": 4.9
+          },
+          "Office-based": {
+            "Selected": 3,
+            "Total": 22,
+            "Percent": 13.6
+          },
+          "Other": {
+            "Selected": 0,
+            "Total": 23,
+            "Percent": 0.0
+          },
+          "Transportation & Storage": {
+            "Selected": 1,
+            "Total": 8,
+            "Percent": 12.5
+          }
+        }
+      }
+    }
+  }
+}
